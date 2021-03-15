@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #000000;
+    font-family: 'Brygada 1918', serif;
+}
+
+.container{
+    max-width: 1000px;
+    background-color: #333333;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+.header{
+
+
+}
+
+.profile-image{
+    width: 120px;
+    height: 140px;
+    border: 2px solid #0071E3;
+    border-radius: 50%;
+    float: left;
+}
+
+
+.name-bio{
+    text-align: center;
+    float: left;
+    padding: 25px;
+    color: #ffffff;
+}
+
+.my-contact{
+    float: right;
+    padding: 40px;
+}
+
+.my-contact a{
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.my-contact a:hover{
+color: blue;
+
+}
+
+.div-clear{
+    clear: both;
+}
+
+hr{
+    border: solid  #0071E3 2px;
+    width: 100%;
+    margin: 35px auto;
+    border-bottom: none;
+}
+
+.common-hr{
+    border: solid  #0071E3 1px;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+}
+/* ~~~~~~~~~~~~~~~~~~~~~~
+    Personal Info Start 
+~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#personal-section{
+    color: #ffffff;
+    text-align: justify
+}
+
+.content{
+
+}
+
+.left-div{
+    width: 30%;
+    float: left;
+}
+
+.right-div{
+    width: 70%;
+    float: left;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~
+    Personal Info End 
+~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    Education Section Start 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.edu-left-div{
+    width: 45%;
+    float: left;
+}
+
+.edu-right-div{
+    width: 45%;
+    float: right;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~
+    Education Section End 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* ~~~~~~~~~~~~~~~~~~~~~~
+    Footer Section Start 
+~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.footer-container{
+    background-color: #000000;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-container a{
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.footer-container p{
+    color:white;
+    margin-top: 20px;
+}
